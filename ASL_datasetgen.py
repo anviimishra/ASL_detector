@@ -44,8 +44,8 @@ height = int(cap.get(4))
 DATA_PATH = os.path.join('MP_data')
 actions = np.array(['hello', 'thanks', 'i love you'])
 
-no_sequences = 10 #Videos 5 of Left and 5 of right
-sequence_frames = 30 #Frames
+no_sequences = 50 #Videos 25 of Left and 25 of right
+sequence_frames = 50 #Frames
 
 for action in actions:
     for sequence in range(no_sequences):
